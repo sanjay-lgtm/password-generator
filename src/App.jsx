@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css'
 import usePasswordGenerator from './hooks/use-password-genratetor';
 import PasswordStrengthIndicator from './component/StrengthChechker.jsx';
-import Button from './component/Button.jsx';
+
 
 function App() {
   const [length, setLength] = useState(4);
